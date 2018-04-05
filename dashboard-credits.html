@@ -13,13 +13,13 @@
 </head>
 <body>
 <!-- Top navigation part -/ BEGIN -->
-<nav class="row header header-message navbar p-0 fixed-top align-items-center">
+<nav class="row header d-flex justify-content-between navbar p-0 fixed-top align-items-center">
     <div class="navbar-header col-auto align-self-center">
         <a href="#" class="wave d-none d-sm-inline-block"><img src="assets/images/sound-waves.png" /></a>
         <a href="#" class="logo ml-sm-3"><img src="assets/images/logo.png" /></a>
     </div>
     <div class="desktop-menu justify-content-center d-none d-lg-block" aria-expanded="false">
-        <ul class="nav navbar-nav list-inline">
+        <ul class="nav navbar-nav flex-row list-inline">
             <li class="nav-item  list-inline-item"><a class="nav-link" href="#">Discover</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Competition</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
@@ -28,7 +28,7 @@
             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         </ul>
     </div>
-    <div class="navbar-header d-flex mr-3">
+    <div class="navbar-header d-flex align-items-center mr-3">
         <div class="d-flex">
             <a href="" class="user-menu align-self-center d-none d-sm-block order-lg-last ml-lg-4 mr-sm-3 ml-lg-0"><img src="assets/images/arrow-down.png" /></a>
             <div class="user-image d-inline-block rounded-circle"><img src="assets/images/user-1.png" /></div>
@@ -117,27 +117,27 @@
                             <div class="credit-table-body">
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
                                     <div class="col-3 pr-0 py-2">
-                                        <span class="credit-data-field transactions-table-data">
+                                        <span class="credit-data-field transactions-table-data" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             ARTISTS
                                         </span>
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <span class="credit-data-field transactions-table-data">26</span>
+                                        <span class="credit-data-field transactions-table-data" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">26</span>
                                     </div>
                                     <div class="col-1 px-0 text-center py-2">
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-3 px-0 text-center py-2">
-                                        <span class="credit-data-field transactions-table-data">07.04.2018.</span>
+                                        <span class="credit-data-field transactions-table-data" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">07.04.2018.</span>
                                     </div>
                                     <div class="col-1 px-0 text-center py-2">
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
-                                <div class="row mx-0 transactions-table-row d-flex mb-2">
+                                <div class="row mx-0 transactions-table-row mb-2 collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="col-12 px-0 py-2">
                                         <div class="credit-data-opened transactions-table-data__opened">
                                             <p class="mb-0">
@@ -165,7 +165,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
@@ -187,7 +187,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
@@ -209,14 +209,14 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 pb-5 pb-lg-0">
                     <div class="rounded content-section general-padding transactions-section h-100">
                         <div class="d-flex  flex-column credits-header mb-5">
                             <div class="d-flex align-items-center">
@@ -266,7 +266,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
@@ -288,7 +288,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
@@ -310,7 +310,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                                 <div class="row mx-0 transactions-table-row d-flex mb-2">
@@ -332,7 +332,7 @@
                                         <img src="assets/images/sound-frecuency---right-copy.png" alt="">
                                     </div>
                                     <div class="col-2 px-0 text-center py-2">
-                                        <a class="credit-data-field transactions-table-data">...</a>
+                                        <button type="button" class="credit-data-field transactions-table-data btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">...</button>
                                     </div>
                                 </div>
                             </div>

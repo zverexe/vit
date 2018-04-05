@@ -4,12 +4,7 @@ var prefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function(){
   return gulp.src('assets/scss/*.scss')
-    .pipe(sass({
-        errLogToConsole: false,
-        onError: function(err){
-            return write(err);
-        }
-    }))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(prefixer('last 15 versions'))
     .pipe(gulp.dest('assets/'))
 });
